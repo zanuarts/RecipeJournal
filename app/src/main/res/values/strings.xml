@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recipe Journal</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="error_password">Password Error!</string>
+    <string name="bahan_ayam">Ayam</string>
+    <string name="bahan_telur">Telur</string>
+    <string name="bahan_nasi">Nasi</string>
+</resources>

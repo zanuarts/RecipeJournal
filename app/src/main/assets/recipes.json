@@ -1,0 +1,342 @@
+{
+  "Ayam": {
+    "images": "ayam-geprek.png",
+    "recipe": [
+      {
+        "nama": "Sempol Ayam Pedas Ala Sajiku®",
+        "gambar": "ayam-sempol.png",
+        "waktu": "30 Menit",
+        "bahan": [
+          "150 gr Ayam cincang",
+          "1 bks Sajiku® Tepung Bumbu Pedas 75 gr",
+          "1 sdm Tepung tapioka",
+          "50 ml Air",
+          "500 ml Minyak goreng"
+        ],
+        "resep": [
+          "1. Masukkan ayam cincang dan tepung tapioka kedalam wadah, aduk rata. Ambil 1 sdm adonan, kepal hingga membentuk lonjong, tusuk dengan tusukan sate. Lakukan hingga adonan habis.",
+          "2. Buat adonan basah: Campur air dengan 2 sdm Sajiku® Tepung Bumbu Pedas, aduk rata.",
+          "3. Masukkan sempol ke dalam adonan basah, gulingkan ke adonan kering sambil diremas-remas hingga terbentuk balutan yang keriting.",
+          "4. Panaskan minyak goreng, masukkan sempol dan goreng hingga matang. Sajikan."
+        ]
+      },
+      {
+        "nama": "Gyoza Ayam Ala Sajiku®",
+        "gambar": "ayam-gyoza.png",
+        "waktu": "60 Menit",
+        "bahan": [
+          "400 gr Daging ayam cincang",
+          "20 gr Wortel",
+          "1 bks Sajiku® Bumbu Nasi Goreng Rasa Ayam",
+          "24 lbr Kulit pangsit",
+          "1 btg Seledri",
+          "4 sdm Minyak goreng"
+        ],
+        "resep": [
+          "1. Bahan isian: Potong wortel ukuran dadu kecil dan cincang seledri, sisihkan. Campurkan ayam cincang, wortel, seledri dan Sajiku® Bumbu Nasi Goreng Rasa Ayam, aduk rata.",
+          "2. Siapkan kulit pangsit, isi kulit pangsit dengan 1 sdm adonan isian, dan lipat pangsit bentuk pastel.",
+          "3. Kukus gyoza selama 20 menit hingga matang, tiriskan.",
+          "4. Panaskan 3 sdm minyak goreng, panggang gyoza hingga berwarna kuning kecoklatan. Angkat dan sajikan."
+        ]
+      },
+      {
+        "nama": "Sop Ayam Kampung Ala Masako®",
+        "gambar": "ayam-sop.png",
+        "waktu": "30 Menit",
+        "bahan": [
+          "1 ekor  Ayam kampung (potong menjadi 12 bagian)",
+          "40 gr  Wortel",
+          "3 sdm  Kacang polong",
+          "1 bks  Masako® Rasa Ayam 10 gr",
+          "3 siung  Bawang merah",
+          "1 ruas  Jahe",
+          "1 btg  Daun bawang",
+          "800 ml  Air"
+        ],
+        "resep": [
+          "1. Iris bawang merah, daun bawang, wortel dan geprek jahe, sisihkan.",
+          "2. Panaskan minyak goreng, masukkan bawang merah dan jahe, tumis hingga harum.",
+          "3. Masukkan air, wortel, kacang polong , dan ayam.",
+          "4. Tambahkan Masako® Rasa Ayam , aduk rata, masak hingga ayam empuk."
+        ]
+      },
+      {
+        "nama": "Ayam Panggang Lada Hitam Ala SAORI®",
+        "gambar": "",
+        "waktu": "30 Menit",
+        "bahan": [
+          "250 gr  Ayam (potong menjadi 4 bagian)",
+          "1 bks SAORI® Saus Lada Hitam",
+          "2 sdm  Minyak Goreng",
+          "150 ml  Air"
+        ],
+        "resep": [
+          "1. Panaskan minyak goreng, masukkan ayam, tumis hingga berubah warna.",
+          "2. Masukkan air dan SAORI® Saus Lada Hitam.",
+          "3. Ungkep hingga ayam matang.",
+          "4. Panggang ayam dalam wajan anti lengket hingga matang di kedua sisinya. Angkat dan sajikan."
+        ]
+      },
+      {
+        "nama": "Ayam Geprek Sambal Matah Ala Sajiku®",
+        "gambar": "ayam-geprek.png",
+        "waktu": "30 Menit",
+        "bahan": [
+          "Ayam potong 200 gr",
+          "1 bks  Sajiku® Tepung Bumbu 80 gr",
+          "4 sdm Air es",
+          "600 ml  Minyak goreng",
+          "2 bh  Cabai merah besar",
+          "6 bh  Cabai rawit",
+          "8 siung Bawang merah",
+          "2 btg  Sereh",
+          "½ sdt  Terasi",
+          "¼ sdt  Garam"
+        ],
+        "resep": [
+          "1. Iris cabai merah besar, cabai rawit, bawang merah, dan sereh. Panaskan 3 sdm minyak goreng, tumis irisan cabai merah besar, cabai rawit, bawang merah, dan sereh hingga harum. Sisihkan.",
+          "2. Buat adonan basah: campur 2 sdm Sajiku® Tepung Bumbu dengan 4 sdm air es. Sisanya digunakan sebagai adonan kering.",
+          "3. Masukkan ayam ke dalam adonan basah, gulingkan ke adonan kering sambil diremas-remas hingga terbentuk kulit yang keriting, ketuk-ketuk agar sisa tepung hilang.",
+          "4. Panaskan minyak goreng, goreng ayam hingga kuning kecoklatan. Angkat dan geprek, sajikan bersama sambal matah."
+        ]
+      }
+    ]
+  },
+
+  "Telur": {
+    "images": "telur-balado.jpg",
+    "recipe": [
+      {
+        "nama": "Telur Balado Ala AJI‑NO‑MOTO®",
+        "gambar": "telur-balado.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "6 btr Telur rebus",
+          "½ sdt A-JI-NO-MOTO®",
+          "1 sdt Garam",
+          "2 lbr Daun Jeruk",
+          "3 sdm Minyak goreng",
+          "2 buah Cabai merah besar",
+          "3 Siung bawang putih",
+          "5 Siung bawang merah",
+          "2 buah Tomat",
+          "100 ml Air"
+        ],
+        "resep": [
+          "1. Haluskan cabai merah besar, bawang merah, bawang putih, tomat, dan air, sisihkan.",
+          "2. Panaskan minyak goreng, tumis bumbu halus dan daun jeruk.",
+          "3. Tambahkan A-JI-NO-MOTO® dan garam, aduk rata, masak hingga matang.",
+          "4. Masukan telur, aduk sebentar, aduk dan sajikan."
+        ]
+      },
+      {
+        "nama": "Telur Ceplok Sambal Tomat Ala AJI‑NO‑MOTO®",
+        "gambar": "telur-ceplok.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "6 buah Telur ceplok",
+          "2 sendok makan Petai",
+          "1 sendok teh AJI-NO-MOTO®",
+          "1 sendok teh Garam",
+          "2 lembar daun jeruk",
+          "3 sendok makan Minyak Goreng",
+          "2 buah Cabai merah besar",
+          "3 siung Bawang putih",
+          "5 siung Bawang merah",
+          "2 buah Tomat",
+          "100ml Air"
+        ],
+        "resep": [
+          "1. Haluskan cabai merah besar, bawang merah, bawang putih, tomat, dan air, sisihkan.",
+          "2. Panaskan minyak goreng, tumis bumbu halus dan daun jeruk.",
+          "3. Tambahkan petai, AJI‑NO‑MOTO® dan garam, aduk rata, masak hingga matang,",
+          "4. Masukkan telur ceplok , aduk sebentar, angkat dan sajikan"
+        ]
+      },
+      {
+        "nama": "Telur Gulung Ala AJI‑NO‑MOTO®",
+        "gambar": "telur-gulung.jpeg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "2 btr Telur",
+          "1 sdt AJI-NO-MOTO®",
+          "1/2 sdm Saus tomat",
+          "1/4 sdt Garam",
+          "15 ml Air",
+          "500 ml Minyak goreng"
+        ],
+        "resep": [
+          "1. Siapkan wadah, kocok telur bersama saus tomat dan air.",
+          "2. Masukkan AJI‑NO‑MOTO® dan garam, aduk rata.",
+          "3. Panaskan minyak goreng dan masukkan 2 sdm telur.",
+          "4. Gulung telur dengan tusuk sate. Angkat dan sajikan"
+        ]
+      },
+      {
+        "nama": "Chicken Egg Roll Ala AJI‑NO‑MOTO®",
+        "gambar": "telur-roll",
+        "waktu": "60 Menit",
+        "bahan": [
+          "120 gr Daging ayam",
+          "25 gr  Wortel parut",
+          "50 gr Tahu",
+          "2 sdm  Tapioka",
+          "1 sdt  AJI-NO-MOTO®",
+          "1 sdm  Gula pasir",
+          "½ sdt  Garam",
+          "2 btr  Telur dadar",
+          "500 ml  Minyak goreng"
+        ],
+        "resep": [
+          "1.Haluskan daging ayam, tahu, tepung tapioka, telur, AJI‑NO‑MOTO®, garam, dan gula hingga lembut. Masukkan ke dalam wadah, lalu campurkan dengan wortel parut, aduk rata.",
+          "2. Siapkan telur dadar, tuang bahan isian di atas telur dadar, ratakan lalu gulung dan lipat kedua ujungnya.",
+          "3. Kukus egg roll hingga matang. Angkat dan potong-potong.",
+          "4. Panasakan minyak goreng,. Goreng egg roll hingga berwarna kuning keemasan. Angkat dan sajikan."
+        ]
+      },
+      {
+        "nama": "Shakshuka Telur Ala Masako®",
+        "gambar": "telur-shakshuka.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "4 bh Telur",
+          "6 bh Tomat",
+          "1 bh Bawang Bombay",
+          "1 bh Cabai hijau besar",
+          "1 btg Seledri",
+          "1 bks Masako® Rasa Ayam 10 gr",
+          "1/2 sdt Lada",
+          "100 ml Air",
+          "4 sdm Minyak goreng"
+        ],
+        "resep": [
+          "1. Cincang kasar seledri dan iris cabai hijau besar, bawang bombay, dan tomat.",
+          "2. Panaskan minyak, tumis bawang bombay, cabai hijau, dan tomat hingga layu.",
+          "3. Tambahkan Masako® Rasa Ayam dan lada. Aduk rata.",
+          "4. Tambahkan telur di atasnya. Taburi seledri dan masak hingga matang, sajikan."
+        ]
+      }
+    ]
+  },
+
+  "Sayur": {
+    "images": "sayur-bayam.jpg",
+    "recipe": [
+      {
+        "nama": "Sayur Bayam Ala AJI‑NO‑MOTO®",
+        "gambar": "sayur-bayam.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "2 Ikat Bayam Segar",
+          "1 Buah Jagung",
+          "1 Buah Wortel",
+          "7 Buah Bawang Merah",
+          "2 Buah Bawang Putih",
+          "1 Ruas Temu Kunci",
+          "½ sdt A-JI-NO-MOTO®",
+          "1 sdt Garam",
+          "1500 ml Air"
+        ],
+        "resep": [
+          "1. Bersihkan bayam hilangkan akar dan batangnya",
+          "2. Iris bawang merah, bawang putih, cabai merah",
+          "3. Didihkan air",
+          "4. Masukan rempah temu kunci, iris bawang dan cabai, masukan potongan jagung dan irisan wortel, kemudian masukan bayam. Masukan A-JI-NO-MOTO®, garam, masak sebentar kemudian sajikan"
+        ]
+      },
+      {
+        "nama": "Sayur Lodeh Masako®",
+        "gambar": "sayur-lodeh.jpg",
+        "waktu": "25 Menit",
+        "bahan": [
+          "200 gr Buah nangka muda, potong-potong",
+          "200 gr labu siam, potong kotak",
+          "8 helai kacang panjang, potong-potong 3 cm",
+          "1 bh terung ungu, belah dua memanjang, potong-potong 2 cm",
+          "50 gr daun melinjo muda, tanpa batang",
+          "3 bh cabai hijau, potong-potong",
+          "3 lbr daun salam",
+          "4 cm lengkuas, bagi dua dan memarkan",
+          "2 ltr santan dari 1 buah kelapa",
+          "1 bks Masako® Rasa Sapi 9 gr",
+          "2 sdt gula merah, sisir",
+          "2 sdt garam",
+          "Minyak untuk menumis",
+          "9 btr bawang merah",
+          "5 siung bawang putih",
+          "4 btr kemiri, sangrai",
+          "1/2 sdt terasi",
+          "2 cm kencur",
+          "1/2 sdt biji ketumbar, sangrai"
+        ],
+        "resep": [
+          "1. Panaskan minyak di dalam panci. Tumis bumbu halus, daun salam dan lengkuas hingga harum dan matang.",
+          "2. Tambahkan santan, gula merah, Masako® Rasa Sapi, dan 1 sdt garam. Aduk dan didihkan.",
+          "3. Masukkan nangka muda dan masak hingga nangka setengah matang.",
+          "4. Tambahkan labu siam, kacang panjang dan terung. Masak kembali hingga sayuran matang.",
+          "5. Periksa rasa. Apabila garam terasa kurang, tambahkan 1 sdt garam.",
+          "6. Masukkan daun melinjo dan cabai hijau, masak sebentar hingga daun layu. Angkat dan sajikan panas."
+        ]
+      },
+      {
+        "nama": "Sop Lobak Daging Ala Sajiku®",
+        "gambar": "sayur-lobak.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "150 gr Lobak",
+          "100 gr Daging Sengkel, rebus",
+          "50 gr Wortel",
+          "1 btg Daun Bawang",
+          "1 bks Sajiku® Bumbu Sayur Sop",
+          "800 ml Air",
+          "2 sdm Minyak Goreng"
+        ],
+        "resep": [
+          "1. Iris daun bawang, potong wortel dan lobak, lalu sisihkan",
+          "2. Panaskan minyak, tumis daging sengkel.",
+          "3. Tambahkan lobak, wortel, air, masak, hingga wortel empuk.",
+          "4. Masukkan Sajiku® Bumbu Sayur Sop dan daun bawang, aduk rata. Sajikan."
+        ]
+      },
+      {
+        "nama": "Tumis Kailan Sapi Saus Tiram Ala SAORI®",
+        "gambar": "sayur-tumis.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "150 gr Kailan",
+          "50 gr Daging Sapi",
+          "1 bks SAORI® Saus Tiram",
+          "3 siung Bawang Putih",
+          "50 ml Air",
+          "3 sdm Minyak Goreng"
+        ],
+        "resep": [
+          "1. Iris bawang putih dan daging, sisihkan",
+          "2. Panaskan minyak goreng, tumis bawang putih dan daging hingga berubah warna.",
+          "3. Tambahkan kailan, masak hingga layu.",
+          "4. Tambahkan air dan SAORI® Saus Tiram. Angkat, sajikan."
+        ]
+      },
+      {
+        "nama": "Ayam Geprek Sambal Matah Ala Sajiku®",
+        "gambar": "sayur-tumis-sawi.jpg",
+        "waktu": "30 Menit",
+        "bahan": [
+          "2 ikat Sawi Hijau",
+          "1 bh Tahu Kuning",
+          "1 bh Cabai Merah Besar",
+          "2 siung Bawang Putih",
+          "1 sdt AJI-NO-MOTO®",
+          "1 sdm Garam",
+          "3 sdm Minyak Goreng",
+          "50 ml Air"
+        ],
+        "resep": [
+          "1. Iris bawang putih dan cabai merah besar, potong dadu tahu kuning, dan sawi hijau, sisihkan.",
+          "2. Panaskan minyak goreng, masukkan tahu kuning, tumis hingga berubah warna.",
+          "3. Tambahkan bawang putih dan irisan cabai merah, tumis hingga harum, masukkan sawi hijau, AJI‑NO‑MOTO®, dan garam masak hingga matang, angkat dan sajikan."
+        ]
+      }
+    ]
+  }
+}
