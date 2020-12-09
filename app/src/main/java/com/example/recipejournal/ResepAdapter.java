@@ -73,6 +73,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
         public void onClick(View v){
             int mPosition = getLayoutPosition();
             Model resep = listResep.get(mPosition);
+
             Intent intent = new Intent(context, DetailActivity.class);
             intent.putExtra("resep", resep);
 
