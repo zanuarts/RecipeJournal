@@ -39,6 +39,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
         Resep currentResep = listResep.get(position);
 
         holder.cardText.setText(currentResep.getNama());
+        holder.cardTime.setText(currentResep.getWaktu());
         try{
             InputStream ins = context.getAssets().open(currentResep.getGambar());
             Drawable d = Drawable.createFromStream(ins, null);
@@ -58,12 +59,14 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
     public class ResepViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public final TextView cardText;
         public final ImageView cardImage;
+        public final TextView cardTime;
         final ResepAdapter mAdapter;
 
         public ResepViewHolder(@NonNull View itemView, ResepAdapter adapter) {
             super(itemView);
             this.cardText = itemView.findViewById(R.id.card_name);
             this.cardImage = itemView.findViewById(R.id.card_image);
+            this.cardTime = itemView.findViewById(R.id.card_waktu);
             this.mAdapter = adapter;
 
             itemView.setOnClickListener(this);

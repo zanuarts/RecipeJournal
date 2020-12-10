@@ -74,8 +74,5 @@ public class DetailActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.bahan_resep)).setText(bahan_makan);
         ((TextView)findViewById(R.id.langkah_resep)).setText(langkah_makan);
     }
-
-    protected void bahanMakan(){
-
-    }
+    
 }
