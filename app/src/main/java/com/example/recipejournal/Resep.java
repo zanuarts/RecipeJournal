@@ -3,7 +3,7 @@ package com.example.recipejournal;
 import java.io.Serializable;
 import java.util.List;
 
-public class Model implements Serializable {
+public class Resep implements Serializable {
 
     private String nama;
     private String gambar;

@@ -11,13 +11,15 @@ import java.util.ArrayList;
 public class ListMakanan extends AppCompatActivity {
     private RecyclerView rv;
     private ResepAdapter adapter;
+    private ArrayList<Model> recipes = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_makanan);
 
-        ArrayList<Model> recipes = new JsonParser(this).getRecipesArrayList();
+        recipes = new JsonParser(this).getRecipesArrayList();
         adapter = new ResepAdapter(this, recipes);
 
         rv = findViewById(R.id.recycler);

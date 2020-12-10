@@ -1,6 +1,7 @@
 package com.example.recipejournal;
 
 import android.content.Context;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,45 +21,76 @@ public class JsonParser {
         this.context = context;
     }
 
-    public ArrayList<Model> getRecipesArrayList(){
-        ArrayList<Model> models = new ArrayList<>();
-        try {
+    public ArrayList<Kategori> getKategori(){
+        ArrayList<Kategori> kategoris = new ArrayList<>();
+
+        try{
             JSONObject obj = new JSONObject(loadJson());
-            Iterator<String> temp = obj.keys();
-            while (temp.hasNext()){
-                String key = temp.next();
+            Iterator<String> keys = obj.keys();
+            while (keys.hasNext()){
+                String key = keys.next();
                 JSONObject jsonVal = (JSONObject)obj.get(key);
+
+                String name = key;
+                String image = jsonVal.get("image").toString();
+
+                Kategori kategori = new Kategori();
+                kategori.setName(name);
+                kategori.setImage(image);
+
+                kategoris.add(kategori);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return kategoris;
+    }
+
+    public ArrayList<Resep> getRecipesArrayList(){
+        ArrayList<Resep> reseps = new ArrayList<>();
+
+        try {
+            JSONArray obj = new JSONObject(loadJson())
+                    .getJSONObject("Ayam")
+                    .getJSONArray("recipe");
+
+            for (int i = 0; i < obj.length(); i++){
+                JSONObject jsonVal = obj.getJSONObject(i);
 
                 String nama = jsonVal.get("nama").toString();
                 String gambar = jsonVal.get("gambar").toString();
                 String waktu = jsonVal.get("waktu").toString();
 
+                Log.d("RecipeName", nama);
+                Log.d("RecipeImage", gambar);
+                Log.d("RecipeURL", waktu);
+
                 JSONArray jsonArray = jsonVal.getJSONArray("bahan");
                 List<String> bahan = new ArrayList<>();
-                for (int i = 0; i < jsonArray.length(); i++){
-                    bahan.add(jsonArray.getString(i));
+                for (int j = 0; i < jsonArray.length(); i++){
+                    bahan.add(jsonArray.getString(j));
                 }
 
                 jsonArray = jsonVal.getJSONArray("resep");
                 List<String> resep = new ArrayList<>();
-                for (int i = 0; i < jsonArray.length(); i++){
-                    resep.add(jsonArray.getString(i));
+                for (int j = 0; i < jsonArray.length(); i++){
+                    resep.add(jsonArray.getString(j));
                 }
 
-                Model model = new Model();
-                model.setNama(nama);
-                model.setGambar(gambar);
-                model.setWaktu(waktu);
-                model.setBahan(bahan);
-                model.setResep(resep);
+                Resep recipe = new Resep();
+                recipe.setNama(nama);
+                recipe.setGambar(gambar);
+                recipe.setWaktu(waktu);
+                recipe.setBahan(bahan);
+                recipe.setResep(resep);
 
-                models.add(model);
+                reseps.add(recipe);
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        return models;
+        return reseps;
     }
 
     public String loadJson(){

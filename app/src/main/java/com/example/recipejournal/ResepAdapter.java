@@ -20,9 +20,9 @@ import java.util.ArrayList;
 public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHolder> {
     private Context context;
     private LayoutInflater inflater;
-    private final ArrayList<Model> listResep;
+    private final ArrayList<Resep> listResep;
 
-    public ResepAdapter(Context context, ArrayList<Model> listResep){
+    public ResepAdapter(Context context, ArrayList<Resep> listResep){
         this.context = context;
         this.inflater = LayoutInflater.from(context);
         this.listResep = listResep;
@@ -37,7 +37,8 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
 
     @Override
     public void onBindViewHolder(@NonNull ResepAdapter.ResepViewHolder holder, int position) {
-        Model posisiResep = listResep.get(position);
+        Resep posisiResep = listResep.get(position);
+
         holder.cardText.setText(posisiResep.getNama());
         try{
             InputStream ins = context.getAssets().open(posisiResep.getGambar());
@@ -52,7 +53,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
 
     @Override
     public int getItemCount() {
-        return 0;
+        return listResep.size();
     }
 
     public class ResepViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -72,7 +73,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
         @Override
         public void onClick(View v){
             int mPosition = getLayoutPosition();
-            Model resep = listResep.get(mPosition);
+            Resep resep = listResep.get(mPosition);
 
             Intent intent = new Intent(context, DetailActivity.class);
             intent.putExtra("resep", resep);

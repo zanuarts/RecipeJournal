@@ -16,34 +16,22 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private RecyclerView recyclerView;
+    private KategoriAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        CardView ayam = findViewById(R.id.kartu_ayam);
-        CardView telur = findViewById(R.id.kartu_telur);
-        CardView sayur = findViewById(R.id.kartu_sayur);
-        telur.setOnClickListener(this);
-        sayur.setOnClickListener(this);
-        ayam.setOnClickListener(this);
-    }
+        getSupportActionBar().setTitle("Recipe Categories");
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.kartu_ayam:
-                Intent moveIntent = new Intent(MainActivity.this, ListMakanan.class);
-                startActivity(moveIntent);
-                break;
-            case R.id.kartu_telur:
-                Intent telurIntent = new Intent(MainActivity.this, ListMakanan.class);
-                startActivity(telurIntent);
-                break;
-            case R.id.kartu_sayur:
-                Intent sayurIntent = new Intent(MainActivity.this, ListMakanan.class);
-                startActivity(sayurIntent);
-                break;
-        }
+        ArrayList<Kategori> kategori = new JSONParser(this).getKategori();
+        adapter = new KategoriAdapter(this, kategori);
+
+        recyclerView = findViewById(R.id.recycler);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
     }
 }
