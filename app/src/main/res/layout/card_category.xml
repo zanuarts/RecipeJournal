@@ -10,13 +10,13 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/karu_kategori"
-        android:src="null"/>
+        android:id="@+id/kartu_gambar" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
+        android:id="@+id/kartu_nama"
         android:padding="8dp"
         android:background="@color/colorAccent"
         android:textSize="24sp"

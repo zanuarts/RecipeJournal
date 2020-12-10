@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class ListMakanan extends AppCompatActivity {
     private RecyclerView rv;
     private ResepAdapter adapter;
-    private ArrayList<Model> recipes = new ArrayList<>();
+    private ArrayList<Resep> recipes = new ArrayList<>();
 
 
     @Override

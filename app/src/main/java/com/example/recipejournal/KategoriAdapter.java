@@ -66,8 +66,8 @@ public class KategoriAdapter extends RecyclerView.Adapter<KategoriAdapter.Katego
 
         public KategoriViewHolder(@NonNull View itemView, KategoriAdapter kategoriAdapter) {
             super(itemView);
-            this.cardText = itemView.findViewById(R.id.card_text);
-            this.cardImage = itemView.findViewById(R.id.card_image);
+            this.cardText = itemView.findViewById(R.id.kartu_nama);
+            this.cardImage = itemView.findViewById(R.id.kartu_gambar);
             this.mAdapter = kategoriAdapter;
 
             itemView.setOnClickListener(this);

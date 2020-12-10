@@ -14,7 +14,7 @@ import android.view.View;
 import java.io.File;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private KategoriAdapter adapter;
@@ -24,12 +24,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("Recipe Categories");
-
-        ArrayList<Kategori> kategori = new JSONParser(this).getKategori();
+        ArrayList<Kategori> kategori = new JsonParser(this).getKategori();
         adapter = new KategoriAdapter(this, kategori);
 
-        recyclerView = findViewById(R.id.recycler);
+        recyclerView = findViewById(R.id.kategori_recycler);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

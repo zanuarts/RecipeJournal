@@ -32,7 +32,7 @@ public class JsonParser {
                 JSONObject jsonVal = (JSONObject)obj.get(key);
 
                 String name = key;
-                String image = jsonVal.get("image").toString();
+                String image = jsonVal.get("images").toString();
 
                 Kategori kategori = new Kategori();
                 kategori.setName(name);
