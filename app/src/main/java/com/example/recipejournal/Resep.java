@@ -32,7 +32,7 @@ public class Resep implements Serializable {
     }
 
     public void setWaktu(String waktu){
-        this.waktu = this.waktu;
+        this.waktu = waktu;
     }
 
     public List<String> getBahan(){
@@ -40,7 +40,7 @@ public class Resep implements Serializable {
     }
 
     public void setBahan(List<String> bahan){
-        this.bahan = this.bahan;
+        this.bahan = bahan;
     }
 
     public List<String> getResep(){
@@ -48,7 +48,7 @@ public class Resep implements Serializable {
     }
 
     public void setResep(List<String> resep){
-        this.resep = this.resep;
+        this.resep = resep;
     }
 
 }
