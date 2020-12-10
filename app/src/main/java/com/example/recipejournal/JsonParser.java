@@ -46,16 +46,16 @@ public class JsonParser {
         return kategoris;
     }
 
-    public ArrayList<Resep> getRecipesArrayList(){
+    public ArrayList<Resep> getResep(String kategori){
         ArrayList<Resep> reseps = new ArrayList<>();
 
         try {
-            JSONArray obj = new JSONObject(loadJson())
-                    .getJSONObject("Ayam")
+            JSONArray resepArr = new JSONObject(loadJson())
+                    .getJSONObject(kategori)
                     .getJSONArray("recipe");
 
-            for (int i = 0; i < obj.length(); i++){
-                JSONObject jsonVal = obj.getJSONObject(i);
+            for (int i = 0; i < resepArr.length(); i++){
+                JSONObject jsonVal = resepArr.getJSONObject(i);
 
                 String nama = jsonVal.get("nama").toString();
                 String gambar = jsonVal.get("gambar").toString();
@@ -63,7 +63,7 @@ public class JsonParser {
 
                 Log.d("RecipeName", nama);
                 Log.d("RecipeImage", gambar);
-                Log.d("RecipeURL", waktu);
+                Log.d("RecipeTime", waktu);
 
                 JSONArray jsonArray = jsonVal.getJSONArray("bahan");
                 List<String> bahan = new ArrayList<>();

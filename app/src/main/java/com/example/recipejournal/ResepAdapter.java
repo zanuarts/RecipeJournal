@@ -3,7 +3,6 @@ package com.example.recipejournal;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,17 +30,17 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
     @NonNull
     @Override
     public ResepAdapter.ResepViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-        View view = inflater.inflate(R.layout.activity_main, viewGroup, false);
+        View view = inflater.inflate(R.layout.list_makanan, viewGroup, false);
         return new ResepViewHolder(view, this);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ResepAdapter.ResepViewHolder holder, int position) {
-        Resep posisiResep = listResep.get(position);
+        Resep currentResep = listResep.get(position);
 
-        holder.cardText.setText(posisiResep.getNama());
+        holder.cardText.setText(currentResep.getNama());
         try{
-            InputStream ins = context.getAssets().open(posisiResep.getGambar());
+            InputStream ins = context.getAssets().open(currentResep.getGambar());
             Drawable d = Drawable.createFromStream(ins, null);
             holder.cardImage.setImageDrawable(d);
             ins.close();
@@ -63,7 +62,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHol
 
         public ResepViewHolder(@NonNull View itemView, ResepAdapter adapter) {
             super(itemView);
-            this.cardText = itemView.findViewById(R.id.card_text);
+            this.cardText = itemView.findViewById(R.id.card_name);
             this.cardImage = itemView.findViewById(R.id.card_image);
             this.mAdapter = adapter;
 
