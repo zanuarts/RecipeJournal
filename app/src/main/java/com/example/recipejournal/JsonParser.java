@@ -67,13 +67,13 @@ public class JsonParser {
 
                 JSONArray jsonArray = jsonVal.getJSONArray("bahan");
                 List<String> bahan = new ArrayList<>();
-                for (int j = 0; i < jsonArray.length(); i++){
+                for (int j = 0; j < jsonArray.length(); j++){
                     bahan.add(jsonArray.getString(j));
                 }
 
                 jsonArray = jsonVal.getJSONArray("resep");
                 List<String> resep = new ArrayList<>();
-                for (int j = 0; i < jsonArray.length(); i++){
+                for (int j = 0; j < jsonArray.length(); j++){
                     resep.add(jsonArray.getString(j));
                 }
 
