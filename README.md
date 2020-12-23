@@ -14,5 +14,9 @@ An android recipe journal using Java.
 Password
 > any word that more than 8 characters
 
+## APK
+
+Download and try this app <a href="https://drive.google.com/file/d/1iALTNvfjns15KY5BzP5SXKYF6_inxssz/view?usp=sharing">here</a>.
+
 ## Credits
 [Dapurmami Recipes](https://www.dapurumami.com)
